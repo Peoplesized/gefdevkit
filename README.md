@@ -1,3 +1,0 @@
-# gefdevelopers.org
-
-As static as possible...
