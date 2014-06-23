@@ -15,7 +15,7 @@ layouts:
 # Locals will be made available on every page. They can be
 # variables or (coffeescript) functions.
 locals:
-  title: 'GEF Developers'
+  title: 'GEF Developers Toolkit'
 
 # Precompiled template path, see http://roots.cx/docs/#precompile
 # templates: 'views/templates'
