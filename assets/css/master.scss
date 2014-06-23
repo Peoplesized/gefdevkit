@@ -68,7 +68,6 @@ body {
   font-size: 1.313em;
   font-weight: 600;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
 }
 
 .section {
@@ -156,6 +155,14 @@ body {
   width: 100%;
 }
 
+.peoplesized-1 {
+  color: rgb(255, 255, 255);
+}
+
+.peoplesized-2 {
+  color: rgb(255, 255, 255);
+}
+
 ._container-1,
 ._container-2 {
   padding-bottom: 71px;
@@ -180,13 +187,20 @@ body {
     margin-top: 0;
   }
 
+  .getting-started .section-content {
+    margin-left: 4.99834%;
+  }
+
   .getting-started .section-subtitle {
     margin-top: 0;
-    margin-left: 4.99834%;
   }
 
   .getting-started .section-title {
     margin-top: 23px;
+  }
+
+  .section-header .section-subtitle,
+  .section-header .section-title {
     margin-left: 4.99834%;
   }
 
@@ -206,29 +220,27 @@ body {
     margin-top: 40px;
   }
 
-  .section .section-content-2 {
-    margin-left: 5%;
+  ._container .branding-1,
+  ._container .branding-2,
+  ._container .tagline-1 {
+    margin-left: 9.99874%;
   }
 
-  .section .section-content-1,
-  .section-header .section-subtitle-3,
-  .section-header .section-subtitle-5,
-  .section-header .section-title-3,
-  .section-header .section-title-5 {
-    margin-left: 4.99834%;
-  }
-
-  ._container .not-afiliated-1 {
+  ._container .not-afiliated-1,
+  ._container .not-afiliated-2 {
     margin-right: 4.16772%;
   }
 
   ._container .brough-to-you-1,
-  ._container .peoplesized-1 {
+  ._container .brough-to-you-2,
+  ._container .peoplesized-1,
+  ._container .peoplesized-2 {
     margin-left: 7.60459%;
   }
 
-  ._container .branding-1,
-  ._container .tagline-1 {
+  ._container .tagline-2 {
     margin-left: 9.99874%;
+    font-family: 'Open Sans';
+    font-weight: 300;
   }
 }
