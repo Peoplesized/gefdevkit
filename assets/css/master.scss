@@ -1,4 +1,5 @@
 /* CUSTOM  */
+
 a {
   text-decoration: none;
 }
@@ -7,9 +8,28 @@ body {
   margin: 0;
 }
 
+.tagline {
+  font-size: 2.2em;
+}
+
 #disqus_thread {
   padding: 10px 130px;
 }
+
+.section.getting-started > .section-header {
+  background: rgb(61,71,152);
+}
+.section.workflows > .section-header {
+  background: rgb(116,61,152);
+}
+.section.templates > .section-header {
+  background: rgb(61,152,96);
+}
+
+
+
+
+
 
 /* FROM MACAW */
 
