@@ -138,7 +138,6 @@ body {
   width: 80%;
   min-height: 96px;
   margin: 57px 0 0 10%;
-  font: 400 1.625em/1.38 'PT Sans';
   color: rgb(255, 255, 255);
 }
 
@@ -161,6 +160,10 @@ body {
 
 .peoplesized-2 {
   color: rgb(255, 255, 255);
+}
+
+.tagline-2 {
+  font-weight: 300;
 }
 
 ._container-1,
@@ -220,12 +223,6 @@ body {
     margin-top: 40px;
   }
 
-  ._container .branding-1,
-  ._container .branding-2,
-  ._container .tagline-1 {
-    margin-left: 9.99874%;
-  }
-
   ._container .not-afiliated-1,
   ._container .not-afiliated-2 {
     margin-right: 4.16772%;
@@ -238,9 +235,10 @@ body {
     margin-left: 7.60459%;
   }
 
+  ._container .branding-1,
+  ._container .branding-2,
+  ._container .tagline-1,
   ._container .tagline-2 {
     margin-left: 9.99874%;
-    font-family: 'Open Sans';
-    font-weight: 300;
   }
 }
