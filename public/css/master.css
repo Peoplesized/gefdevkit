@@ -166,17 +166,23 @@ body {
   background-color: #000036; }
 
 @media (max-width: 992px) {
+  #disqus_thread {
+    padding: 70px 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
   .branding .logo {
     height: auto; }
   .content .sections-container {
     width: 100%;
     height: auto;
     margin-top: 0; }
-  .getting-started .section-content {
-    margin-left: 4.99834%; }
-  .getting-started .section-subtitle {
+  .section-content {
+    margin-left: 4.99834%;
+    height: 100%; }
+  .section-subtitle {
     margin-top: 0; }
-  .getting-started .section-title {
+  .section-title {
     margin-top: 23px; }
   .section-header .section-subtitle, .section-header .section-title {
     margin-left: 4.99834%; }
@@ -186,7 +192,8 @@ body {
     float: none;
     width: 90%;
     margin-right: auto;
-    margin-left: auto; }
+    margin-left: auto;
+    overflow: auto; }
   .sections-container .templates, .sections-container .workflow {
     margin-top: 40px; }
   ._container .not-afiliated-1, ._container .not-afiliated-2 {

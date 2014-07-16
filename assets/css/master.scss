@@ -203,6 +203,14 @@ body {
 }
 
 @media(max-width: 992px) {
+
+  #disqus_thread {
+    padding: 70px 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
   .branding .logo {
     height: auto;
   }
@@ -213,15 +221,16 @@ body {
     margin-top: 0;
   }
 
-  .getting-started .section-content {
+  .section-content {
     margin-left: 4.99834%;
+    height: 100%;
   }
 
-  .getting-started .section-subtitle {
+  .section-subtitle {
     margin-top: 0;
   }
 
-  .getting-started .section-title {
+  .section-title {
     margin-top: 23px;
   }
 
