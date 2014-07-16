@@ -4,6 +4,10 @@ a {
   text-decoration: none;
 }
 
+h3 {
+  margin-bottom: 5px;
+}
+
 body {
   margin: 0;
 }
@@ -29,6 +33,20 @@ body {
   background: rgb(61,152,96);
 }
 
+.template-title-icon {
+  margin-right: 10px;
+  height: 20px;
+}
+
+.template-small-icon {
+  height: 16px;
+  margin-right: 7px;
+}
+
+.template-link {
+  margin-right: 25px;
+}
+
 
 
 /* FROM MACAW */
@@ -42,7 +60,7 @@ body {
 .branding {
   float: left;
   width: 355px;;
-  margin: 42px 0 0 10%;
+  margin: 42px 0px 0px 8.75%;
 }
 
 .brough-to-you {
@@ -139,7 +157,7 @@ body {
 .sections-container {
   width: 82.5%;
   margin: 65px auto 0;
-  overflow: auto
+  // overflow: auto;
 }
 
 .site-title {
@@ -157,7 +175,7 @@ body {
   clear: both;
   width: 80%;
   min-height: 96px;
-  margin: 57px 0 0 10%;
+  margin: 57px 0px 0px 8.75%;
   color: rgb(255, 255, 255);
 }
 
@@ -200,6 +218,11 @@ body {
 }
 
 @media(max-width: 992px) {
+  .tagline {
+    width: 90%;
+    font-size: 1.8em;
+    margin: 42px 0px 0px 5%;
+  }
 
   #disqus_thread {
     padding: 70px 0px;
@@ -208,6 +231,9 @@ body {
     margin-right: auto;
   }
 
+  .branding {
+    margin: 42px 0px 0px 5%;
+  }
   .branding .logo {
     height: auto;
   }
@@ -216,6 +242,14 @@ body {
     width: 100%;
     height: auto;
     margin-top: 0;
+
+    float: none;
+    clear: both;
+    width: 90%;
+    padding-bottom: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px;
   }
 
   .section-content {
@@ -265,10 +299,5 @@ body {
     margin-left: 7.60459%;
   }
 
-  ._container .branding-1,
-  ._container .branding-2,
-  ._container .tagline-1,
-  ._container .tagline-2 {
-    margin-left: 9.99874%;
-  }
+
 }

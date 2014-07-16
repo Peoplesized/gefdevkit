@@ -2,6 +2,9 @@
 a {
   text-decoration: none; }
 
+h3 {
+  margin-bottom: 5px; }
+
 body {
   margin: 0; }
 
@@ -23,6 +26,17 @@ body {
 .section.templates > .section-header {
   background: #3d9860; }
 
+.template-title-icon {
+  margin-right: 10px;
+  height: 20px; }
+
+.template-small-icon {
+  height: 16px;
+  margin-right: 7px; }
+
+.template-link {
+  margin-right: 25px; }
+
 /* FROM MACAW */
 body {
   background-color: white;
@@ -32,7 +46,7 @@ body {
 .branding {
   float: left;
   width: 355px;
-  margin: 42px 0 0 10%; }
+  margin: 42px 0px 0px 8.75%; }
 
 .brough-to-you {
   display: inline-block;
@@ -117,8 +131,7 @@ body {
 
 .sections-container {
   width: 82.5%;
-  margin: 65px auto 0;
-  overflow: auto; }
+  margin: 65px auto 0; }
 
 .site-title {
   display: inline-block;
@@ -134,7 +147,7 @@ body {
   clear: both;
   width: 80%;
   min-height: 96px;
-  margin: 57px 0 0 10%;
+  margin: 57px 0px 0px 8.75%;
   color: white; }
 
 .templates {
@@ -166,17 +179,30 @@ body {
   background-color: #000036; }
 
 @media (max-width: 992px) {
+  .tagline {
+    width: 90%;
+    font-size: 1.8em;
+    margin: 42px 0px 0px 5%; }
   #disqus_thread {
     padding: 70px 0px;
     width: 90%;
     margin-left: auto;
     margin-right: auto; }
+  .branding {
+    margin: 42px 0px 0px 5%; }
   .branding .logo {
     height: auto; }
   .content .sections-container {
     width: 100%;
     height: auto;
-    margin-top: 0; }
+    margin-top: 0;
+    float: none;
+    clear: both;
+    width: 90%;
+    padding-bottom: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px; }
   .section-content {
     margin-left: 4.99834%;
     height: 100%; }
@@ -199,6 +225,4 @@ body {
   ._container .not-afiliated-1, ._container .not-afiliated-2 {
     margin-right: 4.16772%; }
   ._container .brough-to-you-1, ._container .brough-to-you-2, ._container .peoplesized-1, ._container .peoplesized-2 {
-    margin-left: 7.60459%; }
-  ._container .branding-1, ._container .branding-2, ._container .tagline-1, ._container .tagline-2 {
-    margin-left: 9.99874%; } }
+    margin-left: 7.60459%; } }
