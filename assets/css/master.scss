@@ -29,12 +29,6 @@ body {
   background: rgb(61,152,96);
 }
 
-.detail .sections-container {
-  // height: 100%;
-}
-
-
-
 
 
 /* FROM MACAW */
@@ -144,8 +138,8 @@ body {
 
 .sections-container {
   width: 82.5%;
-  height: 426px;
   margin: 65px auto 0;
+  overflow: auto
 }
 
 .site-title {

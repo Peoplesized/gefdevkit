@@ -23,7 +23,6 @@ body {
 .section.templates > .section-header {
   background: #3d9860; }
 
-
 /* FROM MACAW */
 body {
   background-color: white;
@@ -118,8 +117,8 @@ body {
 
 .sections-container {
   width: 82.5%;
-  height: 426px;
-  margin: 65px auto 0; }
+  margin: 65px auto 0;
+  overflow: auto; }
 
 .site-title {
   display: inline-block;
