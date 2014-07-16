@@ -9,7 +9,10 @@ body {
   font-size: 2.2em; }
 
 #disqus_thread {
-  padding: 70px 130px; }
+  padding: 70px 0px;
+  width: 82.5%;
+  margin-left: auto;
+  margin-right: auto; }
 
 .section.getting-started > .section-header {
   background: #3d4798; }
@@ -20,8 +23,6 @@ body {
 .section.templates > .section-header {
   background: #3d9860; }
 
-.detail .sections-container {
-  height: 100%; }
 
 /* FROM MACAW */
 body {

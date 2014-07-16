@@ -13,7 +13,10 @@ body {
 }
 
 #disqus_thread {
-  padding: 70px 130px;
+  padding: 70px 0px;
+  width: 82.5%;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .section.getting-started > .section-header {
@@ -27,7 +30,7 @@ body {
 }
 
 .detail .sections-container {
-  height: 100%;
+  // height: 100%;
 }
 
 
