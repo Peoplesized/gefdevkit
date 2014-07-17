@@ -40,11 +40,22 @@ body {
 
 .template-small-icon {
   height: 16px;
-  margin-right: 7px;
+  margin-right: 4px;
 }
 
 .template-link {
+  width: 100px;
   margin-right: 25px;
+  float: left;
+  &.disabled {
+    opacity: 0.65;
+    a {
+      color: red;
+      &.visited {
+        color: pink;
+      }
+    }
+  }
 }
 
 .templates-list {
@@ -54,6 +65,10 @@ body {
   }
 }
 
+.template-entry {
+  clear: both;
+  padding-bottom: 20px;
+}
 
 
 /* FROM MACAW */
@@ -286,7 +301,7 @@ body {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    overflow:auto; 
+    overflow:auto;
   }
 
   .sections-container .templates,
@@ -306,5 +321,8 @@ body {
     margin-left: 7.60459%;
   }
 
+  .template-link {
+    float: none;
+  }
 
 }
