@@ -4,8 +4,8 @@ a {
   text-decoration: none;
 }
 
-h3 {
-  margin-bottom: 5px;
+h1, h2, h3 {
+  margin: 0px 0px 10px 0px;
 }
 
 body {
@@ -33,6 +33,23 @@ body {
   background: rgb(61,152,96);
 }
 
+
+.templates-list {
+  p {
+    margin-top: 0;
+    margin-bottom: 6px;
+  }
+  .page-intro {
+    background: rgba(243, 243, 243, 0.13);
+    padding: 10px;
+    p {
+      margin-bottom: 30px;
+    }
+  }
+}
+
+
+
 .template-title-icon {
   margin-right: 10px;
   height: 20px;
@@ -58,16 +75,18 @@ body {
   }
 }
 
-.templates-list {
-  p {
-    margin-top: 0;
-    margin-bottom: 6px;
-  }
+.template-links {
+  // background: rgba(236, 236, 236, 0.38);
+  overflow: auto;
+  padding: 5px;
 }
 
 .template-entry {
   clear: both;
-  padding-bottom: 20px;
+  overflow: auto;
+  margin-top: 27px;
+  background: rgb(243, 243, 243);
+  padding: 10px;
 }
 
 
@@ -76,7 +95,7 @@ body {
 body {
   background-color: rgb(255, 255, 255);
   font: 400 1em/1.18 'Open Sans';
-  color: rgb(124, 124, 124);
+  color: #383838;
 }
 
 .branding {
@@ -323,6 +342,12 @@ body {
 
   .template-link {
     float: none;
+  }
+
+  .templates-list > .page-intro {
+    padding: 5%;
+    margin-left: -6%;
+    margin-right: -6%;
   }
 
 }

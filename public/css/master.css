@@ -2,8 +2,8 @@
 a {
   text-decoration: none; }
 
-h3 {
-  margin-bottom: 5px; }
+h1, h2, h3 {
+  margin: 0px 0px 10px 0px; }
 
 body {
   margin: 0; }
@@ -26,6 +26,15 @@ body {
 .section.templates > .section-header {
   background: #3d9860; }
 
+.templates-list p {
+  margin-top: 0;
+  margin-bottom: 6px; }
+.templates-list .page-intro {
+  background: rgba(243, 243, 243, 0.13);
+  padding: 10px; }
+  .templates-list .page-intro p {
+    margin-bottom: 30px; }
+
 .template-title-icon {
   margin-right: 10px;
   height: 20px; }
@@ -45,19 +54,22 @@ body {
       .template-link.disabled a.visited {
         color: pink; }
 
-.templates-list p {
-  margin-top: 0;
-  margin-bottom: 6px; }
+.template-links {
+  overflow: auto;
+  padding: 5px; }
 
 .template-entry {
   clear: both;
-  padding-bottom: 20px; }
+  overflow: auto;
+  margin-top: 27px;
+  background: #f3f3f3;
+  padding: 10px; }
 
 /* FROM MACAW */
 body {
   background-color: white;
   font: 400 1em/1.18 'Open Sans';
-  color: #7c7c7c; }
+  color: #383838; }
 
 .branding {
   float: left;
@@ -243,4 +255,8 @@ body {
   ._container .brough-to-you-1, ._container .brough-to-you-2, ._container .peoplesized-1, ._container .peoplesized-2 {
     margin-left: 7.60459%; }
   .template-link {
-    float: none; } }
+    float: none; }
+  .templates-list > .page-intro {
+    padding: 5%;
+    margin-left: -6%;
+    margin-right: -6%; } }
