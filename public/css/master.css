@@ -1,1 +1,246 @@
-a{text-decoration:none}h3{margin-bottom:5px}body{margin:0}.tagline{font-size:2.2em}#disqus_thread{padding:70px 0;width:82.5%;margin-left:auto;margin-right:auto}.section.getting-started>.section-header{background:#3d4798}.section.workflows>.section-header{background:#743d98}.section.templates>.section-header{background:#3d9860}.template-title-icon{margin-right:10px;height:20px}.template-small-icon{height:16px;margin-right:4px}.template-link{width:100px;margin-right:25px;float:left}.template-link.disabled{opacity:.65}.template-link.disabled a{color:red}.template-link.disabled a.visited{color:pink}.templates-list p{margin-top:0;margin-bottom:6px}.template-entry{clear:both;padding-bottom:20px}body{background-color:#fff;font:400 1em/1.18 'Open Sans';color:#7c7c7c}.branding{float:left;width:355px;margin:42px 0 0 8.75%}.brough-to-you{display:inline-block;float:left;margin:46px 0 0 7.60547%;font-weight:300;line-height:1.38;color:#fff}.content{float:left;clear:both;width:100%;padding-bottom:98px}.logo{display:block;float:left;width:40px;height:auto;overflow:hidden}.not-afiliated{display:inline-block;float:right;width:14%;margin-right:4.16797%;font-size:.875em;font-weight:300;line-height:1.38;color:#9b9b9b}.peoplesized{display:inline-block;float:left;clear:both;margin:5px 0 0 7.60547%;font-size:1.313em;font-weight:600;line-height:1.38}.section{float:left;width:29.29293%;padding-bottom:15px;background-color:#eee}.section-content{float:left;clear:both;width:90%;height:295px;margin:16px 0 0 15px;font-weight:400;color:#7c7c7c}.section-header{float:left;width:100%;padding-bottom:7px;background-color:#743d98}.section-subtitle{float:left;clear:both;width:90%;min-height:38px;margin:5px 0 0 5%;font-weight:400;line-height:1.38;color:#fff}.section-title{display:inline-block;float:left;width:90%;margin:15px 0 0 5%;font-size:1.563em;font-weight:600;line-height:1.38;color:#fff}.sections-container{width:82.5%;margin:65px auto 0}.site-title{display:inline-block;float:left;margin-left:3.67985%;font-size:1.438em;font-weight:600;line-height:1.38;color:#fff}.tagline{float:left;clear:both;width:80%;min-height:96px;margin:57px 0 0 8.75%;color:#fff}.templates{margin-left:5.45455%}.workflow{margin-left:6.66667%}._container{float:left;width:100%}.peoplesized-1,.peoplesized-2{color:#fff}.tagline-2{font-weight:300}._container-1,._container-2{padding-bottom:71px;background-color:#340d4d}._container-3,._container-4{clear:both;height:276px;background-color:#000036}@media (max-width:992px){.tagline{width:90%;font-size:1.8em;margin:42px 0 0 5%}#disqus_thread{padding:70px 0;width:90%;margin-left:auto;margin-right:auto}.branding{margin:42px 0 0 5%}.branding .logo{height:auto}.content .sections-container{height:auto;margin-top:0;float:none;clear:both;width:90%;padding-bottom:98px;margin-left:auto;margin-right:auto;padding-top:1px}.section-content{margin-left:4.99834%;height:100%}.section-subtitle{margin-top:0}.section-title{margin-top:23px}.section-header .section-subtitle,.section-header .section-title{margin-left:4.99834%}.sections-container .getting-started{margin-top:27px}.sections-container .section{float:none;width:90%;margin-right:auto;margin-left:auto;overflow:auto}.sections-container .templates,.sections-container .workflow{margin-top:40px}._container .not-afiliated-1,._container .not-afiliated-2{margin-right:4.16772%}._container .brough-to-you-1,._container .brough-to-you-2,._container .peoplesized-1,._container .peoplesized-2{margin-left:7.60459%}.template-link{float:none}}
+/* CUSTOM  */
+a {
+  text-decoration: none; }
+
+h3 {
+  margin-bottom: 5px; }
+
+body {
+  margin: 0; }
+
+.tagline {
+  font-size: 2.2em; }
+
+#disqus_thread {
+  padding: 70px 0px;
+  width: 82.5%;
+  margin-left: auto;
+  margin-right: auto; }
+
+.section.getting-started > .section-header {
+  background: #3d4798; }
+
+.section.workflows > .section-header {
+  background: #743d98; }
+
+.section.templates > .section-header {
+  background: #3d9860; }
+
+.template-title-icon {
+  margin-right: 10px;
+  height: 20px; }
+
+.template-small-icon {
+  height: 16px;
+  margin-right: 4px; }
+
+.template-link {
+  width: 100px;
+  margin-right: 25px;
+  float: left; }
+  .template-link.disabled {
+    opacity: 0.65; }
+    .template-link.disabled a {
+      color: red; }
+      .template-link.disabled a.visited {
+        color: pink; }
+
+.templates-list p {
+  margin-top: 0;
+  margin-bottom: 6px; }
+
+.template-entry {
+  clear: both;
+  padding-bottom: 20px; }
+
+/* FROM MACAW */
+body {
+  background-color: white;
+  font: 400 1em/1.18 'Open Sans';
+  color: #7c7c7c; }
+
+.branding {
+  float: left;
+  width: 355px;
+  margin: 42px 0px 0px 8.75%; }
+
+.brough-to-you {
+  display: inline-block;
+  float: left;
+  margin: 46px 0 0 7.60547%;
+  font-weight: 300;
+  line-height: 1.38;
+  color: white; }
+
+.content {
+  float: left;
+  clear: both;
+  width: 100%;
+  padding-bottom: 98px; }
+
+.logo {
+  display: block;
+  float: left;
+  width: 40px;
+  height: auto;
+  overflow: hidden; }
+
+.not-afiliated {
+  display: inline-block;
+  float: right;
+  width: 14%;
+  margin-right: 4.16797%;
+  font-size: 0.875em;
+  font-weight: 300;
+  line-height: 1.38;
+  color: #9b9b9b; }
+
+.peoplesized {
+  display: inline-block;
+  float: left;
+  clear: both;
+  margin: 5px 0 0 7.60547%;
+  font-size: 1.313em;
+  font-weight: 600;
+  line-height: 1.38; }
+
+.section {
+  float: left;
+  width: 29.29293%;
+  padding-bottom: 15px;
+  background-color: #eeeeee; }
+
+.section-content {
+  float: left;
+  clear: both;
+  width: 90%;
+  height: 295px;
+  margin: 16px 0 0 15px;
+  font-weight: 400;
+  color: #7c7c7c; }
+
+.section-header {
+  float: left;
+  width: 100%;
+  padding-bottom: 7px;
+  background-color: #743d98; }
+
+.section-subtitle {
+  float: left;
+  clear: both;
+  width: 90%;
+  min-height: 38px;
+  margin: 5px 0 0 5%;
+  font-weight: 400;
+  line-height: 1.38;
+  color: white; }
+
+.section-title {
+  display: inline-block;
+  float: left;
+  width: 90%;
+  margin: 15px 0 0 5%;
+  font-size: 1.563em;
+  font-weight: 600;
+  line-height: 1.38;
+  color: white; }
+
+.sections-container {
+  width: 82.5%;
+  margin: 65px auto 0; }
+
+.site-title {
+  display: inline-block;
+  float: left;
+  margin-left: 3.67985%;
+  font-size: 1.438em;
+  font-weight: 600;
+  line-height: 1.38;
+  color: white; }
+
+.tagline {
+  float: left;
+  clear: both;
+  width: 80%;
+  min-height: 96px;
+  margin: 57px 0px 0px 8.75%;
+  color: white; }
+
+.templates {
+  margin-left: 5.45455%; }
+
+.workflow {
+  margin-left: 6.66667%; }
+
+._container {
+  float: left;
+  width: 100%; }
+
+.peoplesized-1 {
+  color: white; }
+
+.peoplesized-2 {
+  color: white; }
+
+.tagline-2 {
+  font-weight: 300; }
+
+._container-1, ._container-2 {
+  padding-bottom: 71px;
+  background-color: #340d4d; }
+
+._container-3, ._container-4 {
+  clear: both;
+  height: 276px;
+  background-color: #000036; }
+
+@media (max-width: 992px) {
+  .tagline {
+    width: 90%;
+    font-size: 1.8em;
+    margin: 42px 0px 0px 5%; }
+  #disqus_thread {
+    padding: 70px 0px;
+    width: 90%;
+    margin-left: auto;
+    margin-right: auto; }
+  .branding {
+    margin: 42px 0px 0px 5%; }
+  .branding .logo {
+    height: auto; }
+  .content .sections-container {
+    width: 100%;
+    height: auto;
+    margin-top: 0;
+    float: none;
+    clear: both;
+    width: 90%;
+    padding-bottom: 98px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 1px; }
+  .section-content {
+    margin-left: 4.99834%;
+    height: 100%; }
+  .section-subtitle {
+    margin-top: 0; }
+  .section-title {
+    margin-top: 23px; }
+  .section-header .section-subtitle, .section-header .section-title {
+    margin-left: 4.99834%; }
+  .sections-container .getting-started {
+    margin-top: 27px; }
+  .sections-container .section {
+    float: none;
+    width: 90%;
+    margin-right: auto;
+    margin-left: auto;
+    overflow: auto; }
+  .sections-container .templates, .sections-container .workflow {
+    margin-top: 40px; }
+  ._container .not-afiliated-1, ._container .not-afiliated-2 {
+    margin-right: 4.16772%; }
+  ._container .brough-to-you-1, ._container .brough-to-you-2, ._container .peoplesized-1, ._container .peoplesized-2 {
+    margin-left: 7.60459%; }
+  .template-link {
+    float: none; } }
