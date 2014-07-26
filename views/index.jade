@@ -7,25 +7,35 @@ include _header
         .section-title Getting Started
         .section-subtitle The basics
       .section-content.section-content-1
-        p
-          strong What is the GEF?
-        p A good friend.
-        p
-          strong Who can apply?
-        p A man on a boat, and a woman with a hat.
+        :markdown
+          [Who can apply?](/getting-started.html#who-can-apply)
+
+          [How much money is available, and for what?](/getting-started.html#how-much-what-for)
+
+          [What’s the process?](/getting-started.html#what-is-the-process)
+
+          [How can the GEF developers toolkit help?](/getting-started.html#how-can-the-toolkit-help)
+
+          [What is the GEF?](/getting-started.html#what-is-the-gef)
+
     .section.workflow.clearfix
-      a.section-header.clearfix(href="workflows/")
+      .section-header.clearfix
         .section-title.section-title-3 Workflows
         .section-subtitle.section-subtitle-3 Guiding you from start to finish&nbsp;
       .section-content
-        p
-          strong More than $2m
-        p Most likely to be a &nbsp
-          a(href="workflows/full-size.html") Full-Size Project (FSP)
-        p
-          strong Less than $2m
-        p Most likely to be a &nbsp
-          a(href="workflows/one-step-msp.html") 1-step MSP (1-MSP)
+        :markdown
+          **More than $1m**
+
+          Most likely to be an [Full-size Project(FSP)](/workflows/full-size.html).
+
+          _If it’s a special case (Climate Change project from the LDCF and less than $2m), use [MSP](/workflows/medium-size.html)_
+
+          **Less than $1m**
+
+          Most likely to be an [Medium-size Project(MSP)](/workflows/medium-size.html).
+
+          _If it’s a special case (e.g. [Enabling Activity](http://www.thegef.org/gef/Processing_Enabling_Activities) or [Small Grants Programme](http://sgp.undp.org))_
+
     .section.templates.clearfix
       a.section-header.clearfix(href="templates.html")
         .section-title.section-title-5 Templates
@@ -41,6 +51,8 @@ include _header
           a(href="templates.html#1-msp") 1-step MSP
         p
           a(href="templates.html#prodoc") Generic prodoc
+        p
+          a(href="templates.html#calculation-spreadsheet") Calculation spreadsheet
         p
           a(href="templates.html#ceo-endorsement") CEO endorsement request
         p
