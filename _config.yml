@@ -10,3 +10,6 @@ url: "http://gefdevkit.org" # the base hostname & protocol for your site
 
 # Build settings
 markdown: kramdown
+
+exclude:
+  - node_modules
