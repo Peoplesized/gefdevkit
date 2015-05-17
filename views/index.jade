@@ -1,65 +1,68 @@
-include _header
+extends layout
 
-.content.clearfix
-  .sections-container.clearfix
-    .section.getting-started.clearfix
-      a.section-header.clearfix(href="getting-started.html")
-        .section-title Getting Started
-        .section-subtitle The basics
-      .section-content.section-content-1
-        :markdown
-          [Who can apply?](/getting-started.html#who-can-apply)
+block content
+  include _header
 
-          [How much money is available, and for what?](/getting-started.html#how-much-what-for)
+  .content.clearfix
+    .sections-container.clearfix
+      .section.getting-started.clearfix
+        a.section-header.clearfix(href="getting-started.html")
+          .section-title Getting Started
+          .section-subtitle The basics
+        .section-content.section-content-1
+          :markdown
+            [Who can apply?](/getting-started.html#who-can-apply)
 
-          [What’s the process?](/getting-started.html#what-is-the-process)
+            [How much money is available, and for what?](/getting-started.html#how-much-what-for)
 
-          [How can the GEF developers toolkit help?](/getting-started.html#how-can-the-toolkit-help)
+            [What’s the process?](/getting-started.html#what-is-the-process)
 
-          [What is the GEF?](/getting-started.html#what-is-the-gef)
+            [How can the GEF developers toolkit help?](/getting-started.html#how-can-the-toolkit-help)
 
-    .section.workflow.clearfix
-      .section-header.clearfix
-        .section-title.section-title-3 Workflows
-        .section-subtitle.section-subtitle-3 Guiding you from start to finish&nbsp;
-      .section-content
-        :markdown
-          **More than $1m**
+            [What is the GEF?](/getting-started.html#what-is-the-gef)
 
-          Most likely to be an [Full-size Project(FSP)](/workflows/full-size.html).
+      .section.workflow.clearfix
+        .section-header.clearfix
+          .section-title.section-title-3 Workflows
+          .section-subtitle.section-subtitle-3 Guiding you from start to finish&nbsp;
+        .section-content
+          :markdown
+            **More than $1m**
 
-          _If it’s a special case (Climate Change project from the LDCF and less than $2m), use [MSP](/workflows/medium-size.html)_
+            Most likely to be an [Full-size Project(FSP)](/workflows/full-size.html).
 
-          **Less than $1m**
+            _If it’s a special case (Climate Change project from the LDCF and less than $2m), use [MSP](/workflows/medium-size.html)_
 
-          Most likely to be an [Medium-size Project(MSP)](/workflows/medium-size.html).
+            **Less than $1m**
 
-          _If it’s a special case (e.g. [Enabling Activity](http://www.thegef.org/gef/Processing_Enabling_Activities) or [Small Grants Programme](http://sgp.undp.org))_
+            Most likely to be an [Medium-size Project(MSP)](/workflows/medium-size.html).
 
-    .section.templates.clearfix
-      a.section-header.clearfix(href="templates.html")
-        .section-title.section-title-5 Templates
-        .section-subtitle.section-subtitle-5 Jump straight to the goodies
-      .section-content
-        p
-          a(href="templates.html#pre-pif") Pre-PIF
-        p
-          a(href="templates.html#pif") PIF
-        p
-          a(href="templates.html#ppg-request") PPG request
-        p
-          a(href="templates.html#1-msp") 1-step MSP
-        p
-          a(href="templates.html#prodoc") Generic prodoc
-        p
-          a(href="templates.html#calculation-spreadsheet") Calculation spreadsheet
-        p
-          a(href="templates.html#ceo-endorsement") CEO endorsement request
-        p
-          a(href="templates.html#focal-point-endorsement") Focal point endorsement request
-        p
-          a(href="templates.html#review-sheet") Review sheet
+            _If it’s a special case (e.g. [Enabling Activity](http://www.thegef.org/gef/Processing_Enabling_Activities) or [Small Grants Programme](http://sgp.undp.org))_
 
-  include _disqus
+      .section.templates.clearfix
+        a.section-header.clearfix(href="templates.html")
+          .section-title.section-title-5 Templates
+          .section-subtitle.section-subtitle-5 Jump straight to the goodies
+        .section-content
+          p
+            a(href="templates.html#pre-pif") Pre-PIF
+          p
+            a(href="templates.html#pif") PIF
+          p
+            a(href="templates.html#ppg-request") PPG request
+          p
+            a(href="templates.html#1-msp") 1-step MSP
+          p
+            a(href="templates.html#prodoc") Generic prodoc
+          p
+            a(href="templates.html#calculation-spreadsheet") Calculation spreadsheet
+          p
+            a(href="templates.html#ceo-endorsement") CEO endorsement request
+          p
+            a(href="templates.html#focal-point-endorsement") Focal point endorsement request
+          p
+            a(href="templates.html#review-sheet") Review sheet
 
-include _footer
+    include _disqus
+
+  include _footer

@@ -1,5 +1,4 @@
 /* CUSTOM  */
-
 a {
   text-decoration: none;
 }
@@ -24,31 +23,28 @@ body {
 }
 
 .section.getting-started > .section-header {
-  background: rgb(61,71,152);
+  background: #3d4798;
 }
+
 .section.workflows > .section-header {
-  background: rgb(116,61,152);
+  background: #743d98;
 }
+
 .section.templates > .section-header {
-  background: rgb(61,152,96);
+  background: #3d9860;
 }
 
-
-.templates-list {
-  p {
-    margin-top: 0;
-    margin-bottom: 6px;
-  }
-  .page-intro {
-    background: rgba(243, 243, 243, 0.13);
-    padding: 10px;
-    p {
-      margin-bottom: 30px;
-    }
-  }
+.templates-list p {
+  margin-top: 0;
+  margin-bottom: 6px;
 }
-
-
+.templates-list .page-intro {
+  background: rgba(243, 243, 243, 0.13);
+  padding: 10px;
+}
+.templates-list .page-intro p {
+  margin-bottom: 30px;
+}
 
 .template-title-icon {
   margin-right: 10px;
@@ -64,19 +60,18 @@ body {
   width: 100px;
   margin-right: 25px;
   float: left;
-  &.disabled {
-    opacity: 0.65;
-    a {
-      color: red;
-      &.visited {
-        color: pink;
-      }
-    }
-  }
+}
+.template-link.disabled {
+  opacity: 0.65;
+}
+.template-link.disabled a {
+  color: red;
+}
+.template-link.disabled a.visited {
+  color: pink;
 }
 
 .template-links {
-  // background: rgba(236, 236, 236, 0.38);
   overflow: auto;
   padding: 5px;
 }
@@ -85,22 +80,20 @@ body {
   clear: both;
   overflow: auto;
   margin-top: 27px;
-  background: rgb(243, 243, 243);
+  background: #f3f3f3;
   padding: 10px;
 }
 
-
 /* FROM MACAW */
-
 body {
-  background-color: rgb(255, 255, 255);
+  background-color: white;
   font: 400 1em/1.18 'Open Sans';
   color: #383838;
 }
 
 .branding {
   float: left;
-  width: 355px;;
+  width: 355px;
   margin: 42px 0px 0px 8.75%;
 }
 
@@ -110,7 +103,7 @@ body {
   margin: 46px 0 0 7.60547%;
   font-weight: 300;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .content {
@@ -136,7 +129,7 @@ body {
   font-size: 0.875em;
   font-weight: 300;
   line-height: 1.38;
-  color: rgb(155, 155, 155);
+  color: #9b9b9b;
 }
 
 .peoplesized {
@@ -153,7 +146,7 @@ body {
   float: left;
   width: 29.2929292929%;
   padding-bottom: 15px;
-  background-color: rgb(238, 238, 238);
+  background-color: #eeeeee;
 }
 
 .section-content {
@@ -163,14 +156,14 @@ body {
   height: 320px;
   margin: 16px 0 0 15px;
   font-weight: 400;
-  color: rgb(124, 124, 124);
+  color: #7c7c7c;
 }
 
 .section-header {
   float: left;
   width: 100%;
   padding-bottom: 7px;
-  background-color: rgb(116, 61, 152);
+  background-color: #743d98;
 }
 
 .section-subtitle {
@@ -181,7 +174,7 @@ body {
   margin: 5px 0 0 5%;
   font-weight: 400;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .section-title {
@@ -192,13 +185,12 @@ body {
   font-size: 1.563em;
   font-weight: 600;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .sections-container {
   width: 82.5%;
   margin: 65px auto 0;
-  // overflow: auto;
 }
 
 .site-title {
@@ -208,7 +200,7 @@ body {
   font-size: 1.438em;
   font-weight: 600;
   line-height: 1.38;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .tagline {
@@ -217,7 +209,7 @@ body {
   width: 80%;
   min-height: 96px;
   margin: 57px 0px 0px 8.75%;
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .templates {
@@ -234,11 +226,11 @@ body {
 }
 
 .peoplesized-1 {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .peoplesized-2 {
-  color: rgb(255, 255, 255);
+  color: white;
 }
 
 .tagline-2 {
@@ -248,17 +240,17 @@ body {
 ._container-1,
 ._container-2 {
   padding-bottom: 71px;
-  background-color: rgb(52, 13, 77);
+  background-color: #340d4d;
 }
 
 ._container-3,
 ._container-4 {
   clear: both;
   height: 276px;
-  background-color: rgb(0, 0, 54);
+  background-color: #000036;
 }
 
-@media(max-width: 992px) {
+@media (max-width: 992px) {
   .tagline {
     width: 90%;
     font-size: 1.8em;
@@ -275,6 +267,7 @@ body {
   .branding {
     margin: 42px 0px 0px 5%;
   }
+
   .branding .logo {
     height: auto;
   }
@@ -283,7 +276,6 @@ body {
     width: 100%;
     height: auto;
     margin-top: 0;
-
     float: none;
     clear: both;
     width: 90%;
@@ -320,7 +312,7 @@ body {
     width: 90%;
     margin-right: auto;
     margin-left: auto;
-    overflow:auto;
+    overflow: auto;
   }
 
   .sections-container .templates,
@@ -349,5 +341,4 @@ body {
     margin-left: -6%;
     margin-right: -6%;
   }
-
 }
