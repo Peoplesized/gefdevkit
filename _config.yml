@@ -1,3 +1,5 @@
+gems:
+  - jekyll-sitemap
 # Site settings
 title: GEF Developers Toolkit
 email: your-email@domain.com
